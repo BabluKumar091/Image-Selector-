@@ -1,2 +1,2 @@
-# Image-Selector-
+# Image-Selector
 Using HTML, CSS &amp; JavaScript 
