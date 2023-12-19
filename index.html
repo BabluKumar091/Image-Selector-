@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="img_contener">
+            <img src="image/photo-1495395226200-8fbf6b720b8c.avif" onclick="myfunction(this)">
+            <img src="image/photo-1509114397022-ed747cca3f65.avif" onclick="myfunction(this)">
+            <img src="image/photo-1539651220415-5a02839192a0.avif" onclick="myfunction(this)">
+            <img src="image/premium_photo-1667382050215-6df445b0d3fa.avif" onclick="myfunction(this)">
+            <img src="image/premium_photo-1669497495583-d552beb8ece4.avif" onclick="myfunction(this)">
+        </div>
+        <div class="display_img">
+            <img id="imageBox" src="image/photo-1495395226200-8fbf6b720b8c.avif">
+        </div>
+    </div>
+
+</body>
+<script>
+    function myfunction(smalling)
+    {
+         fulling = document.getElementById("imageBox");
+        fulling.src = smalling.src;
+    }
+</script>
+</html>
